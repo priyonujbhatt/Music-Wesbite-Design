@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Lobster&family=Montserrat:wght@100;300;500;700;900&family=Open+Sans:wght@300;700;800&family=Poppins:wght@100;200;300;400;500;700&display=swap');
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+  background-color: rgb(26, 0, 26);
+}
+.content h1{
+    color: #fff;
+    font-size: 50px;
+}
+.content p{
+    padding: 0 70px;
+    color: #fff;
+    text-align: justify;
+}
+.content iframe{
+    padding-top: 80px;
+}

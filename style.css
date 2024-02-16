@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Lobster&family=Montserrat:wght@100;300;500;700;900&family=Open+Sans:wght@300;700;800&family=Poppins:wght@100;200;300;400;500;700&display=swap');
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+
+#nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 80px;
+  background-color: #000000;
+}
+
+.logo{
+  color:rgb(4, 255, 0);
+  margin: 7px 25px;
+  padding: 1px 7px;
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'poppins',sans-serif;
+  padding-left: 40px;
+}
+.list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 10px 35px;
+}
+
+.item{
+  margin: 7px 15px;
+}
+
+.item a{
+  color:#fff;
+  text-decoration: none;
+}
+
+.item a:hover{
+  color: rgb(72, 255, 0);
+  text-decoration: underline;
+}
+
+.hamburger{
+  display: none;
+  margin: 7px 25px;
+  cursor: pointer;
+}
+
+.line{
+  width: 30px;
+  height: 5px;
+  margin: 3px;
+  border: 1.5px solid #fff;
+}
+
+.cross{
+  color: rgb(8, 6, 96);
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  width: 35px;
+}
+
+@media only screen and (max-width: 998px)
+{
+  #nav{
+      flex-direction: column;
+      height: auto;
+  }
+
+  .head{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100vw;
+  }
+
+  .hamburger{
+      display: block;
+      margin: 15px 25px;
+  }
+
+  .logo{
+      font-size: 29px;
+      margin: 15px 25px;
+      font-weight: bold;
+  }
+
+  .list{
+      flex-direction: column;
+      padding: 50px;
+  }
+
+  .v{
+      display: none;
+  }
+}
+.parent{
+  display: flex;
+  height: 90vh;
+  background-image: url(music.gif);
+  background-position: center;
+  background-size: cover;
+
+}
+.child{
+  width: 50%;
+  padding-left: 60px;
+  padding-top: 40px;
+}
+.child2{
+  width: 50%;
+padding-top: 200px;
+
+}
+.child h1{
+  font-size: 60px;
+  font-weight: bold;
+  color: #ffffff;
+font-family: 'montserrat',sans-serif;
+}
+
+.child p{
+  padding-bottom: 30px;
+  padding-right: 50px;
+  color:#fff;
+  font-size: 14px;
+  text-align: justify;
+}
+span{
+  color:#ff00f7;
+  font-size: 5.5rem;
+
+}
+.plane{
+    width: 95%;  
+}
+@media only screen and (max-width:768px) {
+.parent{
+  display: inline-block;
+
+}
+.child h1{
+  font-size: 40px;
+}
+span{
+  font-size: 65px;
+}
+.child p{
+font-size: 13px;
+}
+.plane{
+display: none;
+}
+}
+
+/* CSS */
+.button-86 {
+  all: unset;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: relative;
+  color: #22ff00;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-86::after,
+.button-86::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.button-86::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #2c2c2c;
+  border-radius: 10px;
+}
+
+.button-86::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.button-86:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.button-86:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.button-86:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+
+.ads{
+width: 100%;
+height: 155px;
+background-color:#ffffff;
+}
+#myvideo {
+  padding-top: 200px;
+  background-image: linear-gradient(rgb(0, 0, 23),black);
+  padding-bottom: 100px;
+  }
+  #myvideo h1{
+    font-size: 90px;
+    padding-bottom: 15px;
+    padding-top: 100px;
+    color: #fff;
+  }
+  #myvideo p{
+    color: #fff;
+    font-size: 18px;
+    padding-top: 20px;
+  }
+  .suuu{
+    padding-top: 40px;
+  }
+  .amazon{
+    background-color:rgb(0, 255, 204);
+  }
+  .container{
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(4, 0, 56));
+    min-height: 100vh;
+}
+.content1{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex; 
+}
+.image-container img{
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+    margin-top: 200px;
+}
+.text{
+    padding-left: 10%;
+    padding-top: 20px;
+}
+.content1 h1{
+    font-size: 65px; 
+    color:#fff;
+}
+
+.image-container{
+    padding-top: 200px;
+}
+.content1 p{
+    text-align: justify;
+    color: #ffffff;
+    padding-bottom: 60px;
+}
+.wiki{
+    padding-top: 20px;
+    text-align: end;
+    padding-bottom: 80px;
+}
+.advvv{
+    width:20%;
+}
+@media only screen and (max-width:768px) {
+  .image-container{
+    display: none;
+  }
+  .content1 h1{
+    font-size: 40px; 
+    padding-right: 13px;
+  }
+  .content1 p{
+    font-size: 10px;
+    text-align: justify;
+    padding-right: 40px;
+  }
+  .amazon{
+    padding-top:150px;
+  }
+  #myvideo h1{
+    font-size: 30px;
+  }
+}
+.footer{
+  width: 100%;
+  height: 150px;
+  background-color:#000000;
+  padding-top: 20px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+.color{
+    background-color: rgb(22, 22, 22);
+}
+
